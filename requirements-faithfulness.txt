@@ -1,0 +1,21 @@
+# Core runtime verified on 2026-04-28 in conda env `faithfulness`
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+transformers==5.3.0
+datasets==4.6.1
+accelerate==1.13.0
+huggingface_hub==1.6.0
+spacy==3.8.2
+nltk==3.9.4
+sentencepiece==0.2.1
+matplotlib==3.10.8
+pandas==2.3.3
+scipy==1.17.1
+seaborn==0.13.2
+openai==2.32.0
+notebook==7.5.3
+ipykernel==7.2.0
+
+# Optional:
+# lm-eval  # only needed for mmlu.py or unlearn.py --mmlu/--gsm paths
